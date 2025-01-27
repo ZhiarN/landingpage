@@ -1,0 +1,39 @@
+body {
+    font-family: roboto;
+    background-color: rgb(255, 255, 255);
+}
+.header {
+    background-color: #1c2531;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#logo {
+    width: 98px;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+a:active,a:visited,a:link {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
