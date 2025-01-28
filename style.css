@@ -1,7 +1,10 @@
 body {
-    font-family: roboto;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Spliff Joints, Roboto;
     background-color: #ffffff;
 }
+
 .header {
     background-color: #1C2531;
     display: flex;
@@ -20,19 +23,34 @@ body {
 nav ul {
     list-style-type: none;
     display: flex;
-    gap: 50px;
+    gap: 60px;
 }
 
 nav ul li {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 a:active,a:visited,a:link {
-    color:rgb(255, 255, 255);
+    color:#6c9b37;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
+}
+
+h1 {
+    font-size: 68px;
+    font-weight: 600;
+    color: #385f0b;
+    text-align: center;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 830px;
 }
 
 
