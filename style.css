@@ -99,21 +99,39 @@ h3 {
     margin: 10px 0px;
 }
 
-.purchase {
+.subscribe {
     background-color: #1C2531;
     width: 40%;
     text-align: center;
     margin: auto;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 0px 5px 6px 2px #7A7C82;
 }
 
-.purchase h3 {
+.subscribe h3 {
     color: #ffffff;
     text-align: center;
     margin: 5px 0px;
 
 }
+
+.about {
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+.about h3 {
+    font-size: 34px;
+    color: #000000;
+}
+
+.about p {
+    font-size: 20px;
+    color: #000000;
+}
+
 footer {
     margin-top: 25px;
     background-color: #1C2531;
